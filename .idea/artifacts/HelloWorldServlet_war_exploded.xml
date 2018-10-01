@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="HelloWorldServlet:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/HelloWorldServlet</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HelloWorldServlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="dir-copy" path="$PROJECT_DIR$/lib" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/webapp/WEB-INF/web.xml" />
+      </element>
+      <element id="javaee-facet-resources" facet="HelloWorldServlet/web/Web" />
+      <element id="directory" name="css">
+        <element id="dir-copy" path="$PROJECT_DIR$/webapp/css" />
+      </element>
+      <element id="directory" name="js">
+        <element id="dir-copy" path="$PROJECT_DIR$/webapp/js" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/webapp/index.html" />
+    </root>
+  </artifact>
+</component>
